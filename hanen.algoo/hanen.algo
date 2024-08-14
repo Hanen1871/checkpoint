@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+   x:=0, Y,sum: INTEGER
+   z: BOOLEAN;
+   a: CHAR;
+   B: STRING;
+BEGIN
+Read(X)
+Read(Y)
+sum := x + y
+Write(sum)
+IF (sum>=15) THEN
+    set_instructions
+ELSE_IF (conditon) THEN
+    set_instructions
+ELSE
+    set_instructions
+END_IF
+
+END

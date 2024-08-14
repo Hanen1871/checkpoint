@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="m-2 gap-2 p-4 rounded-md border-blue-400 border-2 w-3/5 hover:bg-blue-500 hover:text-white group ">
+    <div class="font-semibold">Hello To Tailwind CSS</div>
+    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Corrupti reiciendis inventore nihil maxime
+      sapiente eveniet ipsam quaerat nulla sed cumque obcaecati ipsum
+      nesciunt amet numquam, esse aspernatur et commodi
+      atque!</div>
+
+    <div class="bg-blue-500 inline-block rounded-lg p-2 m-2 text-white hover:bg-blue-800 cursor-pointer
+group-hover:bg-blue-300">click here</div>
+  </div>
+  <form>
+
+    <label class="block font-semibold m-2">username </label>
+    <div>
+      <input required type="text" class="border-2  ms-2 px-2 max-w-[300px] rounded-lg w-1/2 border-gray-200
+       focus:ring-orange-400 focus:ring-2 ring-inset invalid:bg-red-500 peer">
+      <div class="m-2 text-red-500 invisible peer-invalid:visible">this field is required.</div>
+    </div>
+
+    <label class="block font-semibold m-2">password </label>
+    <input required type="password"
+      class="border-2 ms-2 px-2 max-w-[300px] rounded-lg w-1/2 border-gray-200 invalid:border-red-500">
+    <button type="submit" class="bg-blue-500 block rounded-lg p-2 m-2 text-white hover:bg-blue-800">submit</button>
+  </form>
+
+</body>
+
+</html>
